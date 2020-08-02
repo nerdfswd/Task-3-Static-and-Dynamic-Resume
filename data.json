@@ -1,0 +1,52 @@
+{
+	"details":{
+		"name":"SABIYA",
+		"image":"profile.jpg",
+		"email":"s@gmail.com",
+		"number":"+91-1234567890",
+		"address":"Hyderabad"
+	},
+	"careerobjective":{
+		"info":"To become software developer"
+	},
+	"educationalqualification":[
+	
+
+		{
+   
+			"institute":"KVIT college of Engineering",
+			"degree":"B.tech",
+			"passoutyear":"2020",
+			"percentage":"87%"
+		},
+		{
+			"institute":"sri chaitanya college",
+			"degree":"Intermediate",
+			"passoutyear":"2014",
+			"percentage":"98%"
+		},
+		{
+			"institute":"SRK school",
+			"degree":"SSC",
+			"passoutyear":"2012",
+			"percentage":"98%"
+		}
+
+	],
+
+	"techinicalskills":[
+		{
+		"title":"Programming Langauges:",
+		"info":["c,c++,java,python,R"]
+	},
+		{
+		"title":"Databases:",
+		"info":["oracle,sql,mysql,TinyDB,mongoDB"]
+	},
+		{
+		"title":"Operating Systems:",
+		"info":["windows,linux,ubuntu,Dos"]
+	}
+
+	]
+}
