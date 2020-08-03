@@ -18,9 +18,9 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-<link rel="stylesheet" href="home.css">
+
+<link rel="stylesheet" href="login.css">
 
 </head>
 
@@ -45,11 +45,12 @@
 
 		    </a>
 
-		    <li class="nav-item">
+		     <li class="nav-item">
 
 		        <a href="home.html" class="navbar-brand">Brand<b>Name</b></a>
 
 		    </li>
+
 
 		   <li class="nav-item">
 
@@ -63,7 +64,7 @@
 
 		    </li>
 
-		    <div class="nav-item dropdown">
+		     <div class="nav-item dropdown">
 				<a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle user-action"><b class="caret"></b></a>
              <div class="dropdown-menu">
 					<a href="#" class="dropdown-item"><i class="fa fa-calendar-o"></i>  Courses</a></a>
@@ -80,32 +81,42 @@
 	</div>
 
 	</nav>
+       
+		       <div class="login-form">
+    <form action="/examples/actions/confirmation.php" method="post">
+		<h2>Login</h2>
+		<hr>
+        <div class="form-group">
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text">
+						<span class="fa fa-user"></span>
+					</span>                    
+				</div>
+				<input type="text" class="form-control" name="username" placeholder="Username" required="required">
+			</div>
+        </div>
+        <div class="form-group">
+			<div class="input-group">
+				<div class="input-group-prepend">
+					<span class="input-group-text">
+						<i class="fa fa-lock"></i>
+					</span>                    
+				</div>
+				<input type="password" class="form-control" name="password" placeholder="Password" required="required">
+			</div>
+        </div>
+		
 
-
-     <div class="parent">
-		<div class="child1">
-			<img src="profile.jpg">
-			<h2> SABIYA </h2>
-			<h3> s@gmail.com</h3>
-             <a href="resume.html"> <button type="submit" class="btn btn-primary btn-lg">Login</button></a>
-           
-		</div>
-		<div class="child2">
-			
-           <img src="profile.jpg">
-	    	<h2> SABIYA </h2>
-			<h3> s@gmail.com</h3>
-             <a href="http://127.0.0.1:8887/index.html"> <button type="submit" class="btn btn-primary btn-lg">Login</button></a>
-           
-		</div>
-
-
-
-	</div>
-
-
-
-
+		<div class="form-group">
+            <button type="submit" class="btn btn-primary btn-lg">Login</button>
+        </div>
+         <br>
+        <div class="clearfix">
+            <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
+            <a href="#" class="float-right">Forgot Password?</a>
+        </div>        
+    </form>
 </body>
 
 </html>

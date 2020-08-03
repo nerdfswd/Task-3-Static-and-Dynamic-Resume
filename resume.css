@@ -1,0 +1,52 @@
+.child1 img{
+    width:13%;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align: left;
+    
+ 
+}
+
+.child2 {
+    width:60%;
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.child1 {
+  border:1px solid #ddd;
+  margin:2%;
+  padding: 3%;
+  width: 95%;
+  border-radius: 5%;
+  background: #19aa8d;
+}
+
+.child2{
+    border: 1px solid #ddd;
+    margin:2%;
+  padding: 3%;
+  width: 95%;
+  border-radius: 5%;
+  text-align: left;
+  background: #19aa8d;
+}
+
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:10px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: lightgray;
+}
+
